@@ -32,6 +32,8 @@ int modificaContato(Lista *li, int cod, cto *cto);
 
 int removeLista(Lista *li, int cod);
 
+void salvaLista (Lista *li);
+
 void apagaLista (Lista *li);
 
 int listaVazia(Lista *li);

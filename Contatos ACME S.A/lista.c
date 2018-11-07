@@ -20,6 +20,30 @@ Lista *criaLista()
     return li;
 }
 
+void carregarLista(Lista li)
+{
+    FILE *txt;
+    cto ctoLocal;
+
+    txt = fopen("contatos.txt", "rb");
+
+    if (txt == NULL)
+    {
+        printf("BEM VINDO NOVO USUARIO!\n");
+        system("pause");
+    }
+
+    else
+    {
+        while (fread(&ctoLocal, sizeof(cto), 1, txt))
+        {
+            insereCod(li,ctoLocal);
+        }
+
+        fclose(txt);
+    }
+}
+
 void listarContatos(Lista *li)
 {
     if(li == NULL) printf("Não existe nenhum contato salvo!!");
@@ -184,6 +208,34 @@ int removeLista(Lista *li, int cod)
 
     return 1;
 
+}
+
+void salvaLista (Lista *li)
+{
+    FILE *txt;
+    ELEM *no = *li;
+    int aux = 0;
+
+    txt = fopen("contatos.txt", "wb");
+
+    if (txt == NULL)
+    {
+        printf("\nErro ao salvar as alterações!\n");
+        system("pause");
+    }
+
+    else
+    {
+        while(no != NULL)
+        {
+            fwrite(&no->dados, sizeof(cto), 1, txt);
+            no = no->prox;
+        }
+
+        fclose(txt);
+    }
+
+    free(no);
 }
 
 void apagaLista (Lista *li)

@@ -131,6 +131,7 @@ void menu(Lista li)
 
             case '7':
 
+                salvaLista(li);
                 apagaLista(li);
                 exit(0);
 

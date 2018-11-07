@@ -45,3 +45,26 @@
 	<string.h>
 	"customLib.h"
 
+1541608752 source:d:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\contatos.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541607400 d:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\customlib.h
+
+1541611612 source:d:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\lista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"customLib.h"
+
+1541609486 source:d:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541608264 source:d:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+

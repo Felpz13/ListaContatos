@@ -10,6 +10,8 @@ int main()
     Lista *li;
     li = criaLista();
 
+    carregarLista(li);
+
     menu(li);
 
     return 0;

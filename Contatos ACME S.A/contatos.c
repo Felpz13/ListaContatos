@@ -2,9 +2,6 @@
 #include <stdlib.h>
 #include "customLib.h"
 
-int cod, telefone, celular;
-    char nome[30], empresa[30], departamento[30], email[20];
-
 cto novoContato()
 {
     cto novo;
