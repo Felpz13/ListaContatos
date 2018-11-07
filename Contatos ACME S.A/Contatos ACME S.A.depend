@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1541525146 source:c:\users\claro\desktop\projeto_final_ed\contatos acme s.a\contatos.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541533653 c:\users\claro\desktop\projeto_final_ed\contatos acme s.a\customlib.h
+
+1541534546 source:c:\users\claro\desktop\projeto_final_ed\contatos acme s.a\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541522833 source:c:\users\claro\desktop\projeto_final_ed\contatos acme s.a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541533878 source:c:\users\claro\desktop\projeto_final_ed\contatos acme s.a\lista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"customLib.h"
+
+1541521548 source:f:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\contatos.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541530054 f:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\customlib.h
+
+1541519234 source:f:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541543800 source:f:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541530280 source:f:\2 - sem\ed1d2\projeto_final_ed\contatos acme s.a\lista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"customLib.h"
+
