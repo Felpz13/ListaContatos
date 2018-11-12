@@ -91,3 +91,26 @@
 	<stdlib.h>
 	"customLib.h"
 
+1541605152 source:f:\2 - sem\ed1d2\projeto_final_ed\dev\contatos.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1541603800 f:\2 - sem\ed1d2\projeto_final_ed\dev\customlib.h
+
+1542060006 source:f:\2 - sem\ed1d2\projeto_final_ed\dev\lista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"customLib.h"
+
+1541604664 source:f:\2 - sem\ed1d2\projeto_final_ed\dev\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+
+1542058400 source:f:\2 - sem\ed1d2\projeto_final_ed\dev\main.c
+	<stdio.h>
+	<stdlib.h>
+	"customLib.h"
+

@@ -214,7 +214,6 @@ void salvaLista (Lista *li)
 {
     FILE *txt;
     ELEM *no = *li;
-    int aux = 0;
 
     txt = fopen("contatos.txt", "wb");
 

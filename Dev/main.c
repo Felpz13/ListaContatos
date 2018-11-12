@@ -5,7 +5,6 @@
 int main()
 {
     system("color 17");
-    system("mode con:cols=64lines=30");
 
     Lista *li;
     li = criaLista();
