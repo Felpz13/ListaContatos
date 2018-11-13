@@ -75,13 +75,13 @@
 
 1541607400 d:\2 - sem\ed1d2\projeto_final_ed\dev\customlib.h
 
-1541611612 source:d:\2 - sem\ed1d2\projeto_final_ed\dev\lista.c
+1542071314 source:d:\2 - sem\ed1d2\projeto_final_ed\dev\lista.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"customLib.h"
 
-1541609486 source:d:\2 - sem\ed1d2\projeto_final_ed\dev\main.c
+1542062000 source:d:\2 - sem\ed1d2\projeto_final_ed\dev\main.c
 	<stdio.h>
 	<stdlib.h>
 	"customLib.h"

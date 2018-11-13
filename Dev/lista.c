@@ -25,7 +25,7 @@ void carregarLista(Lista li)
     FILE *txt;
     cto ctoLocal;
 
-    txt = fopen("contatos.txt", "rb");
+    txt = fopen("contatos.bin", "rb");
 
     if (txt == NULL)
     {
@@ -215,7 +215,7 @@ void salvaLista (Lista *li)
     FILE *txt;
     ELEM *no = *li;
 
-    txt = fopen("contatos.txt", "wb");
+    txt = fopen("contatos.bin", "wb");
 
     if (txt == NULL)
     {
